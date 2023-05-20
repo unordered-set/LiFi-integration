@@ -1,4 +1,5 @@
 import './globals.css'
+import './menu.js'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -12,9 +13,29 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div style={{position: 'fixed', top: '0px', left: '0px', 'width': '100%', 'height': '40px', 'backgroundColor': 'royalblue'}}>
-          Menu-2
+        <div id='newmenu'>
+          <nav id='menu'>
+          <div class="navbar-brand">
+                        <a href="https://harecrypta.com/"><img class="logo-2" src="https://harecrypta.com/wp-content/uploads/2022/09/logo-footer-1.png" alt="harecrypta.com" /></a>
         </div>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()' /><label></label>
+            <ul>
+              <li><a href='https://harecrypta.com/cryptoactivies/testnets/'>АКТИВНОСТИ</a></li>
+              <li><a href='https://harecrypta.com/konsalting/'>КОНСАЛТИНГ</a></li>
+              <li><a href='https://harecrypta.com/wp-content/uploads/2022/09/bez-imeni-1-6-300x300.png'>НОВОСТИ</a></li>
+              <li><a  className="dropdown-arrow" href='#'>HARECRYPTA</a>
+                <ul  className="sub-menus">
+                  <li><a href='https://harecrypta.com/ama/'>AMA HARECRYPTA</a></li>
+                  <li><a href='https://harecrypta.com/pitchday/'>PITCH DAY</a></li>
+                  <li><a href='https://harecrypta.com/category/statya/'>Статьи HareCrypta</a></li>
+                  <li><a href='https://harecrypta.com/category/stati-po-makroekonomika/'>Макроэкономика</a></li>
+                  <li><a href='https://harecrypta.com/crypto-academy/'>Криптоакадемия</a></li>
+                  <li><a href='https://harecrypta.com/haremerch/'>Merch</a></li>
+                </ul>
+              </li>
+            </ul>
+         </nav>
+       </div>
         {children}
       </body>
     </html>
