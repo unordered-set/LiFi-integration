@@ -15,42 +15,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-      <header className="site-header is-sticky">
-          <div className="navbar navbar-expand-lg is-transparent" id="mainnav">
-            <nav className="container">
-              <div className="navbar-brand">
-                <a href="https://harecrypta.com/">
-                  <img className="logo" src="https://harecrypta.com/wp-content/uploads/2022/09/logo-footer-1.png" alt="harecrypta.com" />
-                </a>
-              </div>
-              <button className="navbar-toggler" type="button">
-                <span className="navbar-toggler-icon">
-                        <span className="ti ti-align-justify"></span>
-                </span>
-              </button>
-              <div className="navbar-collapse justify-content-end">
-                <ul className="navbar-nav menu-top">
-                  <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-541"><a href="/cryptoactivies/testnets/" class="nav-link">Активности</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2396"><a href="https://harecrypta.com/konsalting/" class="nav-link">Консалтинг</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-822"><a href="https://harecrypta.com/news-harecrypta/" class="nav-link">Новости</a></li>
-                  <li className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-has-children menu-item-1507 active"><a href="/" aria-current="page" class="nav-link">HareCrypta</a>
-                    <ul className="sub-menu">
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1823"><a href="https://harecrypta.com/ama/" class="nav-link">AMA HareCrypta</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2249"><a href="https://harecrypta.com/pitchday/" class="nav-link">Pitch Day</a></li>
-                      <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1920"><a href="https://harecrypta.com/category/statya/" class="nav-link">Статьи HareCrypta</a></li>
-                      <li className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2018"><a href="https://harecrypta.com/category/stati-po-makroekonomika/" class="nav-link">Макроэкономика</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2835"><a href="https://harecrypta.com/crypto-academy/" class="nav-link">Криптоакадемия</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1503"><a href="https://harecrypta.com/haremerch/" class="nav-link">Merch</a></li>
-                    </ul>
-                    <span><i className="fa fa-angle-down"></i></span></li>
-                </ul>
-                <ul className="navbar-nav navbar-btns">
-                  <li className="nav-item"><a className="nav-link btn btn-sm btn-outline menu-link" href="https://harecrypta.com/harma/">NFT Harma</a></li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </header>
         {children}
       </body>
     </html>
