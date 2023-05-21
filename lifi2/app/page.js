@@ -41,8 +41,14 @@ export default function Home() {
         </div>
       </header>
       <sectione className="section-pad-md section-bg-dark">
-        <LiFiWidgetNext />
-      </sectione>
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="widghet-hc"><LiFiWidgetNext /></div>
+              </div>
+            </div>
+          </div>
+        </sectione>
       <div className="section footer-section footer-particle section-pad-sm section-bg-dark ">
         <div className="container">
           <div className="row">
