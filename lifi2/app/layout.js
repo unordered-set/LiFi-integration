@@ -1,7 +1,7 @@
-import './vendor.css'
-import './style.css'
-import './bootstrap-min.css'
-import './globals.css'
+import './css/vendor.css'
+import './css/style.css'
+import './css/bootstrap-min.css'
+import './css/globals.css'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -15,8 +15,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-      <main style={{backgrounde : '#0d112e'}}>
-      <div id="wrapper">
       <header className="site-header is-sticky">
           <div className="navbar navbar-expand-lg is-transparent" id="mainnav">
             <nav className="container">
@@ -54,8 +52,6 @@ export default function RootLayout({ children }) {
           </div>
         </header>
         {children}
-      </div>
-      </main>
       </body>
     </html>
   )
