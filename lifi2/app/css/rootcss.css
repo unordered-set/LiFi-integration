@@ -857,3 +857,13 @@ footer.footer-section {
     flex-wrap: wrap;
     align-items: center;
 }
+
+footer-section .wp-block-social-links .wp-block-social-link {
+    background-color: #fff;
+    color: #444;
+    font-size: 20px;
+}
+footer-section .wp-block-social-links .wp-block-social-link:hover {
+    background-color: #7a0fff;
+    color: #fff;
+}
