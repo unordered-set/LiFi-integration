@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+
 .bypostauthor,
 .gallery-caption,
 .wp-caption,
@@ -175,7 +179,7 @@ body {
     color: #3c3c3c;
     font-size: 15px;
     line-height: 1.86;
-    font-weight: 100;
+    font-weight: 300;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
@@ -1145,7 +1149,7 @@ h6.color-alt-primary {
 
     .accordion .panel-title {
         font-size: 1.125em;
-        font-weight: 100;
+        font-weight: 400;
     }
 
     .h1,
@@ -2344,7 +2348,7 @@ hr:last-child {
     margin-top: -1px;
     height: 2px;
     width: 160px;
-    background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background: linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
     transform: rotate(90deg);
 }
 
@@ -2618,7 +2622,7 @@ hr:last-child {
     margin: 0;
     line-height: 24px;
     color: #fff;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 18px;
     text-transform: uppercase;
     border: none;
@@ -2673,7 +2677,7 @@ hr:last-child {
 
 .tab-custom-s2 .nav-tabs li > a {
     padding: 10px 8px;
-    font-weight: 100;
+    font-weight: 400;
     margin: 0 20px;
     color: #fff;
     opacity: 0.5;
@@ -3072,6 +3076,7 @@ select:focus {
     text-transform: uppercase;
     color: inherit;
     font-size: 13px;
+    font-weight: 500;
     line-height: 38px;
     margin: 0 8.5px;
     transition: all 0.35s ease;
@@ -3083,6 +3088,7 @@ select:focus {
 
 .navbar .navbar-btns > li > a {
     font-size: 12px;
+    font-weight: 600;
 }
 
 .navbar .navbar-nav > li > a {
@@ -3135,7 +3141,7 @@ select:focus {
 .navbar .navbar-nav .sub-menu {
     background: #1b1e4b;
     border: 0;
-    padding: 10px;
+    padding: 10px 0;
     left: 0;
     top: 100%;
     display: block;
@@ -3170,6 +3176,7 @@ select:focus {
 
 .navbar .navbar-nav .sub-menu li a {
     font-size: 13px;
+    font-weight: 500;
     text-transform: uppercase;
     color: #fff;
 }
@@ -3597,14 +3604,14 @@ select:focus {
     border-radius: 2px;
     border: none;
     transition: all 0.5s ease;
-    background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background: linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
     position: absolute;
     top: 33px;
     right: 25px;
 }
 
 .navbar-toggler:hover {
-    background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background: linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
 }
 
 .navbar-toggler:focus {
@@ -3628,6 +3635,58 @@ select:focus {
     min-height: 100vh;
 }
 
+.banner.banner-particle {
+    background: url("/img/particle-left.png") top left no-repeat, url("/img/particle-right.png") top right no-repeat, #08091b;
+    background-size: auto, auto, auto;
+}
+
+.banner.banner-curb {
+    background: url("/img/header-bottom.png") bottom center no-repeat, #0b0c22;
+    background-size: 100%;
+}
+
+.banner.banner-curb.banner-particle {
+    background: url("/img/header-bottom.png") bottom center no-repeat, url("/img/particle-left.png") top left no-repeat, url("/img/particle-right.png") top right no-repeat, #0b0c22;
+    background-size: 100%, auto, auto, auto;
+}
+
+.theme-light .banner.banner-particle {
+    background: url("/img/particle-left.png") top left no-repeat, url("/img/particle-right.png") top right no-repeat, #eff6ff;
+    background-size: auto, auto, auto;
+}
+
+.theme-light .banner.banner-curb {
+    background: url("/img/header-bottom-light.png") bottom center no-repeat, #eff6ff;
+    background-size: 100%;
+}
+
+.theme-light .banner.banner-curb.banner-particle {
+    background: url("/img/header-bottom-light.png") bottom center no-repeat, url("/img/particle-left.png") top left no-repeat, url("/img/particle-right.png") top right no-repeat, #eff6ff;
+    background-size: 100%, auto, auto, auto;
+}
+
+.section-light-alt.banner.banner-particle,
+.section-light.banner.banner-particle {
+    background: url("/img/particle-left.png") top left no-repeat, url("/img/particle-right.png") top right no-repeat, #eff6ff;
+    background-size: auto, auto, auto;
+}
+
+.section-light-alt.banner.banner-curb,
+.section-light.banner.banner-curb {
+    background: url("/img/header-bottom-light.png") bottom center no-repeat, #eff6ff;
+    background-size: 100%;
+}
+
+.section-light-alt.banner.banner-curb.banner-particle,
+.section-light.banner.banner-curb.banner-particle {
+    background: url("/img/header-bottom-light.png") bottom center no-repeat, url("/img/particle-left.png") top left no-repeat, url("/img/particle-right.png") top right no-repeat, #eff6ff;
+    background-size: 100%, auto, auto, auto;
+}
+
+.io-azure .banner {
+    background: url("/img/header-overlay.png") 0 0 no-repeat, url("/img/header-bg-azure.png") 50% 100% no-repeat;
+    background-size: contain, cover;
+}
 
 .header-image {
     position: relative;
@@ -3708,7 +3767,21 @@ select:focus {
     z-index: 3;
 }
 
+.page-banner {
+    min-height: 280px;
+    background: url("/img/particle-left.png") top left no-repeat, url("/img/particle-right.png") top right no-repeat, #08091b;
+    background-size: auto, auto, auto;
+}
 
+.theme-light .page-banner {
+    background: url("/img/particle-left.png") top left no-repeat, url("/img/particle-right.png") top right no-repeat, #eff6ff;
+    background-size: auto, auto, auto;
+}
+
+.io-azure .page-banner {
+    background: url("/img/header-overlay.png") 0 0 no-repeat, url("/img/header-bg-azure.png") 0 0 no-repeat;
+    background-size: 50%, cover;
+}
 
 .page-heading {
     padding: 80px 0 40px;
@@ -3722,6 +3795,11 @@ select:focus {
     bottom: -125px;
 }
 
+.section-light-alt.page-banner,
+.section-light.page-banner {
+    background: url("/img/particle-left.png") top left no-repeat, url("/img/particle-right.png") top right no-repeat, #eff6ff;
+    background-size: auto, auto, auto;
+}
 
 @media only screen and (max-width:991px) {
     .page-banner {
@@ -4124,8 +4202,8 @@ select:focus {
     z-index: 2;
     -ms-border-radius: 40px;
     border-radius: 40px;
-    background-image: -webkit-linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
-    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background-image: -webkit-linear-gradient(left, #16a3fe 0%, #41faa4 100%);
+    background-image: linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
 }
 
 .io-azure .btn {
@@ -4155,18 +4233,18 @@ select:focus {
     z-index: -2;
     opacity: 0;
     transition: all 0.5s ease;
-    background-image: -webkit-linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
-    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background-image: -webkit-linear-gradient(left, #41faa4 0%, #16a3fe 100%);
+    background-image: linear-gradient(to right, #41faa4 0%, #16a3fe 100%);
 }
 
 .btn.btn-alt {
-    background-image: -webkit-linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
-    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%));
+    background-image: -webkit-linear-gradient(left, #16a3fe 0%, #41faa4 100%);
+    background-image: linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
 }
 
 .btn.btn-alt:before {
-    background-image: -webkit-linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
-    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background-image: -webkit-linear-gradient(left, #41faa4 0%, #16a3fe 100%);
+    background-image: linear-gradient(to right, #41faa4 0%, #16a3fe 100%);
 }
 
 .btn:hover:before {
@@ -4408,7 +4486,7 @@ select:focus {
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background: linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
     line-height: 60px;
     text-align: center;
     margin-left: auto;
@@ -4454,7 +4532,7 @@ select:focus {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background-image: linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
     transition: all 0.5s ease;
 }
 
@@ -4489,7 +4567,7 @@ select:focus {
     top: 50%;
     left: calc(50% + 2px);
     transform: translate(-50%, -50%);
-    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background-image: linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
 }
 
 .play-btn .play > span:after,
@@ -5251,6 +5329,18 @@ select:focus {
     position: relative;
 }
 
+.roadmap-section.section-pro-alt:before,
+.roadmap-section.section-pro:before {
+    content: "";
+    background: url("/img/pattern-azure-light.png") 50% 50% no-repeat fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
 
 .roadmap-list {
     margin-bottom: 230px;
@@ -5725,6 +5815,17 @@ select:focus {
     position: relative;
 }
 
+.io-azure .team-section:before {
+    content: "";
+    background: url("/img/pattern-azure-dark.png") 50% 50% no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
 
 .io-azure .team-section.bg-fixed:before {
     background-attachment: fixed;
@@ -6511,8 +6612,8 @@ select:focus {
     width: 38px;
     text-align: center;
     color: #fff;
-    background-image: -webkit- linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
-    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background-image: -webkit- linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
+    background-image: linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
     border-radius: 50%;
     margin-right: 15px;
 }
@@ -6540,7 +6641,7 @@ select:focus {
     color: #fff;
     border-radius: 50%;
     margin-right: 15px;
-    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background-image: linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
     z-index: 1;
 }
 
@@ -6861,6 +6962,16 @@ select:focus {
     }
 }
 
+.subscribe-section {
+    background: url("/img/footer-bg.png") no-repeat 50% 0%/contain, #10122d;
+}
+
+.section-light .subscribe-section,
+.section-light-alt .subscribe-section,
+.theme-light .subscribe-section {
+    background: url("/img/footer-bg.png") no-repeat 50% 0%/contain, #eff6ff;
+}
+
 .copyright-text {
     font-size: 13px;
     display: block;
@@ -6893,6 +7004,10 @@ select:focus {
     color: rgba(122, 185, 255, 0.5);
 }
 
+.footer-particle {
+    background: url("/img/particle-left.png") top left no-repeat, url("/img/particle-left.png") top right no-repeat, #0b0c22;
+}
+
 .footer-brand,
 .widget_media_image {
     display: inline-block;
@@ -6903,12 +7018,12 @@ select:focus {
 .footer-section .wp-block-social-links {
     margin-top: 25px;
 }
-.footer-section .wp-block-social-links .wp-block-social-link {
+footer-section .wp-block-social-links .wp-block-social-link {
     background-color: #fff;
     color: #444;
     font-size: 20px;
 }
-.footer-section .wp-block-social-links .wp-block-social-link:hover {
+footer-section .wp-block-social-links .wp-block-social-link:hover {
     background-color: #7a0fff;
     color: #fff;
 }
@@ -6990,6 +7105,17 @@ select:focus {
 
 .footer-subscription .input-round.error {
     border-color: #d2636d;
+}
+
+.not(.io-zinnia) .footer-subscription .btn.btn-plane,
+.not(.io-zinnia) .footer-widget .btn.btn-plane {
+    position: absolute;
+    top: 5px;
+    right: -50px;
+    padding: 0 10px;
+    min-width: 110px;
+    background: #16a4fd;
+    border-radius: 23px;
 }
 
 .footer-widget .btn.btn-plane:before {
@@ -7820,6 +7946,10 @@ header:not(.has-fixed) .menu-item-has-children > span {
     background-image: linear-gradient(135deg, rgba(13, 66, 178, 0) 15%, #28298a 50%, rgba(13, 66, 178, 0) 80%);
 }
 
+.mask-ov-s2:before {
+    display: block;
+    background-image: url("/img/mask-line-a.png");
+}
 
 .mask-ov-s2.mask-ov-left:before {
     transform: rotate(-180deg);
@@ -7838,7 +7968,10 @@ header:not(.has-fixed) .menu-item-has-children > span {
     background-image: linear-gradient(135deg, rgba(13, 66, 178, 0) 15%, #102486 50%, rgba(13, 66, 178, 0) 80%);
 }
 
-
+.mask-ov-s3:before {
+    display: block;
+    background-image: url("/img/mask-line-b.png");
+}
 
 .mask-ov-s3.mask-ov-right:before {
     transform: rotate(180deg);
@@ -7868,6 +8001,10 @@ header:not(.has-fixed) .menu-item-has-children > span {
     background-image: linear-gradient(135deg, rgba(13, 66, 178, 0) 15%, #1b5ed1 50%, rgba(13, 66, 178, 0) 80%);
 }
 
+.mask-ov-s5:before {
+    display: block;
+    background-image: url("/img/mask-line-c.png");
+}
 
 .mask-ov-s5.mask-ov-right:before {
     transform: rotate(180deg);
@@ -7886,6 +8023,10 @@ header:not(.has-fixed) .menu-item-has-children > span {
     background-image: linear-gradient(135deg, rgba(13, 66, 178, 0) 15%, #142692 50%, rgba(13, 66, 178, 0) 80%);
 }
 
+.mask-ov-s6:before {
+    display: block;
+    background-image: url("/img/mask-line-d.png");
+}
 
 .mask-ov-s6.mask-ov-left:before {
     transform: rotate(180deg);
@@ -8044,6 +8185,16 @@ select:focus {
     position: relative;
 }
 
+.page-banner {
+    min-height: 220px!important;
+    background: url("/img/particle-left.png") top left no-repeat, url("/img/particle-right.png") top right no-repeat, #08091b;
+    background-size: auto, auto, auto;
+}
+
+.theme-light .page-banner {
+    background: url("/img/particle-left.png") top left no-repeat, url("/img/particle-right.png") top right no-repeat, #eff6ff;
+    background-size: auto, auto, auto;
+}
 
 .page-heading {
     padding: 135px 0 40px;
@@ -9043,7 +9194,22 @@ p.logged-in-as {
     background-image: linear-gradient(-225deg, #290075 0%, rgba(9, 109, 223, 0) 100%);
     z-index: -1;
 }
-
+.error-text-large {
+    font-size: 250px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 17px;
+    background: -webkit-linear-gradient(#0e7dee, #093b76);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.5;
+}
+.io-azure .error-text-large,
+.theme-light .error-text-large {
+    background: -webkit-linear-gradient(#107ef4, #114fc2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .error-content {
     position: relative;
 }
@@ -9931,6 +10097,11 @@ div.vc_toggle.vc_toggle_arrow.vc_toggle_active h4 {
     color: #fff;
 }
 
+.product-box {
+    background-color: #0e102f!important;
+    padding: 25px 35px!important !important;
+    margin-bottom: 30px;
+}
 .product-box img {
     margin-bottom: 35px;
     max-height: 230px;
@@ -10002,6 +10173,17 @@ a.back-to {
 	position: absolute;
 	font-size: 16px;
 }
+.wp-social-link-fivehundredpx a::after {
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-image: url("/wp-content/uploads/2022/07/discord_logo.png");
+    position: absolute;
+    background-size: contain;
+}
 .wp-social-link-fivehundredpx:hover a::after {
     filter: invert(1) brightness(3);
 }
@@ -10011,7 +10193,17 @@ a.back-to {
 .banner-content .social li a{
 	position: relative;
 }
-
+.banner-content .social li:last-of-type a em:after{
+	content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-image: url("/wp-content/uploads/2022/07/discord_logo.png");
+    position: absolute;
+    background-size: contain;
+}
 .banner-content .social li:last-of-type a:hover em:after{
 	filter: invert(1) brightness(3);
 }
@@ -10379,4 +10571,9 @@ a.back-to {
     
     .page-heading-taran {
     font-size:10px;
+    }
+
+    .widghet-hc {
+        padding: 10px;
+      margin-top: 120px;
     }

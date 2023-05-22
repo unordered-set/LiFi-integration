@@ -113,6 +113,15 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <footer class="section footer-section section-pad-sm section-bg ">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <span class="copyright-text"> Copyright © 2022 by <a href="/">HareCrypta</a></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
   )
 }
