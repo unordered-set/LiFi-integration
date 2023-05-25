@@ -11,7 +11,7 @@ const LoadingIndicator = () => {
           placeItems: 'center',
         }}
       >
-        <p>Loading...</p>
+        <p style={{padding: '300px'}}>Loading...</p>
       </div>
     );
   };
