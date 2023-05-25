@@ -1,7 +1,7 @@
 
+import './css/bootstrap-min.css'
 import './css/vendor.css'
 import './css/style.css'
-import './css/bootstrap-min.css'
 import './css/style-min.css'
 import './css/rootcss.css'
 import './css/globals.css'
