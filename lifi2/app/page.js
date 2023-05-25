@@ -3,6 +3,7 @@ import { LiFiWidgetNext } from './lifi'
 
 
 
+
 export default function Home() {
   return (
     <div className="wrapped">
