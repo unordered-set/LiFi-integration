@@ -1,6 +1,9 @@
 'use client'
 import { LiFiWidgetNext } from './lifi'
-
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 
@@ -8,40 +11,34 @@ export default function Home() {
   return (
     <div className="wrapped">
       <header className="site-header">
-        <div className="navbar navbar-expand-lg is-transparent" id="mainnav">
-          <nav className="container">
-            <div className="navbar-brand">
+        <Navbar collapseOnSelect variant="dark" expand="lg" >
+          <Container>
+            <Navbar.Brand>
               <a href="https://harecrypta.com/">
                 <img className="logo" src="https://harecrypta.com/wp-content/uploads/2022/09/logo-footer-1.png" alt="harecrypta.com" />
               </a>
-            </div>
-            <button className="navbar-toggler" type="button">
-              <span className="navbar-toggler-icon">
-                <span className="ti ti-align-justify"></span>
-              </span>
-            </button>
-            <div className="navbar-collapse justify-content-end">
-              <ul className="navbar-nav menu-top">
-                <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-541"><a href="/cryptoactivies/testnets/" className="nav-link">Активности</a></li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2396"><a href="https://harecrypta.com/konsalting/" className="nav-link">Консалтинг</a></li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-822"><a href="https://harecrypta.com/news-harecrypta/" className="nav-link">Новости</a></li>
-                <li className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-has-children menu-item-1507 active"><a href="/" aria-current="page" className="nav-link">HareCrypta</a>
-                  <ul className="sub-menu">
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1823"><a href="https://harecrypta.com/ama/" className="nav-link">AMA HareCrypta</a></li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2249"><a href="https://harecrypta.com/pitchday/" className="nav-link">Pitch Day</a></li>
-                    <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1920"><a href="https://harecrypta.com/category/statya/" className="nav-link">Статьи HareCrypta</a></li>
-                    <li className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2018"><a href="https://harecrypta.com/category/stati-po-makroekonomika/" className="nav-link">Макроэкономика</a></li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2835"><a href="https://harecrypta.com/crypto-academy/" className="nav-link">Криптоакадемия</a></li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1503"><a href="https://harecrypta.com/haremerch/" className="nav-link">Merch</a></li>
-                  </ul>
-                  <span><i className="fa fa-angle-down"></i></span></li>
-              </ul>
-              <ul className="navbar-nav navbar-btns">
-                <li className="nav-item"><a className="nav-link btn btn-sm btn-outline menu-link" href="https://harecrypta.com/harma/">NFT Harma</a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
+            </Navbar.Brand>
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                 <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ml-auto">
+                      <Nav.Link  className="menu-item menu-item-type-custom menu-item-object-custom menu-item-541"><a href="/cryptoactivies/testnets/" className="nav-link">Активности</a></Nav.Link>
+                      <Nav.Link  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2396"><a href="https://harecrypta.com/konsalting/" className="nav-link">Консалтинг</a></Nav.Link>
+                      <Nav.Link  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-822"><a href="https://harecrypta.com/news-harecrypta/" className="nav-link">Новости</a></Nav.Link>
+                       <NavDropdown title="HareCrypta" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-822">
+                          <NavDropdown.Item className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1823"><a href="https://harecrypta.com/ama/" className="nav-link">AMA HareCrypta</a></NavDropdown.Item>
+                          <NavDropdown.Item className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2249"><a href="https://harecrypta.com/pitchday/" className="nav-link">Pitch Day</a></NavDropdown.Item>
+                          <NavDropdown.Item className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1920"><a href="https://harecrypta.com/category/statya/" className="nav-link">Статьи HareCrypta</a></NavDropdown.Item>
+                          <NavDropdown.Item className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2018"><a href="https://harecrypta.com/category/stati-po-makroekonomika/" className="nav-link">Макроэкономика</a></NavDropdown.Item>
+                          <NavDropdown.Item className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2835"><a href="https://harecrypta.com/crypto-academy/" className="nav-link">Криптоакадемия</a></NavDropdown.Item>
+                          <NavDropdown.Item className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1503"><a href="https://harecrypta.com/haremerch/" className="nav-link">Merch</a></NavDropdown.Item>
+                        </NavDropdown>
+                      </Nav>
+                    <ul className="navbar-nav navbar-btns">
+                      <li className="nav-item"><a className="nav-link btn btn-sm btn-outline menu-link" href="https://harecrypta.com/harma/">NFT Harma</a></li>
+                    </ul>
+                  </Navbar.Collapse>
+            </Container>
+          </Navbar>
       </header>
       <sectione className="section-pad-md section-bg-dark">
           <div className="container">
