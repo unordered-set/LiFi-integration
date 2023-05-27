@@ -2,6 +2,8 @@
 import { LiFiWidgetNext } from './lifi'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
@@ -41,77 +43,77 @@ export default function Home() {
           </Navbar>
       </header>
       <sectione className="section-pad-md section-bg-dark">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12">
+        <Container>
+            <Row>
+              <Col sm={12}>
                 <div className="widghet-hc"><LiFiWidgetNext /></div>
-              </div>
-            </div>
-          </div>
+              </Col>
+            </Row>
+          </Container>
         </sectione>
       <div className="section footer-section footer-particle section-pad-sm section-bg-dark ">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-3 res-m-bttm">
+        <Container>
+          <Row>
+            <Col lg={3} className="res-m-bttm">
               <div id="block-4" className="widget footer-widget widget_block widget_media_image">
                 <figure className="wp-block-image size-full"><img loading="lazy" width="287" height="82" src="https://harecrypta.com/wp-content/uploads/2022/09/logo-footer-1.png" alt="" className="wp-image-1344" /></figure>
               </div>
               <div id="block-6" className="widget footer-widget widget_block widget_text">
                 <p>Вы еще не с нами в соцсетях? Горячие минты и свежие инсайты тут! Следите за нами в соц. сетях!</p>
               </div>
-            </div>
-            <div className="col-lg-3 res-m-bttm">
-              <div id="nav_menu-10" className="widget footer-widget widget_nav_menu">
+            </Col>
+            <Col lg={3} className="res-m-bttm">
+              <div id="nav_menu-3" className="widget footer-widget widget_nav_menu">
                 <h6 className="widget-title">Навигация</h6>
                 <div className="menu-futer-menyu-2-container">
-                  <ul id="menu-futer-menyu-2" className="menu">
-                    <li id="menu-item-2806" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-395 current_page_item menu-item-2806"><a href="https://harecrypta.com/" aria-current="page">Главная</a></li>
-                    <li id="menu-item-2813" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2813"><a href="https://harecrypta.com/konsalting/">Консалтинг</a></li>
-                    <li id="menu-item-2807" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2807"><a href="https://harecrypta.com/news-harecrypta/">Новости HareCrypta</a></li>
-                    <li id="menu-item-2808" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2808"><a href="https://harecrypta.com/ama/">AMA HareCrypta</a></li>
-                    <li id="menu-item-2810" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2810"><a href="https://harecrypta.com/harma/">Harma</a></li>
-                    <li id="menu-item-2809" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2809"><a href="https://harecrypta.com/haremerch/">HareMerch</a></li>
-                    <li id="menu-item-2802" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2802"><a href="https://harecrypta.com/crypto-academy/">Криптоакадемия</a></li>
-                  </ul>
+                 <Nav id="menu-futer-menyu-2" className="menu" style={{display: 'block'}}>
+                   <Nav.Link id="menu-item-2795" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-395 current_page_item menu-item-2806"><a href="https://harecrypta.com/" aria-current="page">Главная</a></Nav.Link>
+                   <Nav.Link id="menu-item-2795" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2813"><a href="https://harecrypta.com/konsalting/">Консалтинг</a></Nav.Link>
+                   <Nav.Link id="menu-item-2795" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2807"><a href="https://harecrypta.com/news-harecrypta/">Новости HareCrypta</a></Nav.Link>
+                   <Nav.Link id="menu-item-2795" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2808"><a href="https://harecrypta.com/ama/">AMA HareCrypta</a></Nav.Link>
+                   <Nav.Link id="menu-item-2795" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2810"><a href="https://harecrypta.com/harma/">Harma</a></Nav.Link>
+                   <Nav.Link id="menu-item-2795" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2809"><a href="https://harecrypta.com/haremerch/">HareMerch</a></Nav.Link>
+                   <Nav.Link id="menu-item-2795" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2802"><a href="https://harecrypta.com/crypto-academy/">Криптоакадемия</a></Nav.Link>
+                  </Nav>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-3 res-m-bttm">
+            </Col>
+            <Col lg={3} className="res-m-bttm">
               <div id="nav_menu-3" className="widget footer-widget widget_nav_menu">
                 <h6 className="widget-title">Важное HareCrypta</h6>
                 <div className="menu-futer-menyu-container">
-                  <ul id="menu-futer-menyu" className="menu">
-                    <li id="menu-item-2798" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2798"><a href="https://harecrypta.com/category/statya/">Статья HareCrypta</a></li>
-                    <li id="menu-item-2795" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2795"><a href="https://harecrypta.com/category/vyzhimki/">Выжимки HareCrypta</a></li>
-                    <li id="menu-item-2796" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2796"><a href="https://harecrypta.com/category/makroekonomika/">Макроэкономика</a></li>
-                    <li id="menu-item-2797" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2797"><a href="https://harecrypta.com/category/letopis-harma/">Летопись Harma</a></li>
-                  </ul>
+                  <Nav id="menu-futer-menyu" className="menu">
+                    <Nav.Link id="menu-item-2798" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2798"><a href="https://harecrypta.com/category/statya/">Статья HareCrypta</a></Nav.Link>
+                    <Nav.Link id="menu-item-2795" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2795"><a href="https://harecrypta.com/category/vyzhimki/">Выжимки HareCrypta</a></Nav.Link>
+                    <Nav.Link id="menu-item-2796" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2796"><a href="https://harecrypta.com/category/makroekonomika/">Макроэкономика</a></Nav.Link>
+                    <Nav.Link id="menu-item-2797" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2797"><a href="https://harecrypta.com/category/letopis-harma/">Летопись Harma</a></Nav.Link>
+                  </Nav>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-3 res-m-bttm">
+            </Col>
+            <Col lg={3} className="res-m-bttm">
               <div id="nav_menu-4" className="widget footer-widget widget_nav_menu">
                 <h6 className="widget-title">Информация</h6>
                 <div className="menu-informacziya-container">
-                  <ul id="menu-informacziya" className="menu">
-                    <li id="menu-item-1170" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1170"><a href="https://harecrypta.com/category/statya/">Статьи HareCrypta</a></li>
-                    <li id="menu-item-1168" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1168"><a href="https://harecrypta.com" aria-current="page">GitBook про NFT (coming soon)</a></li>
-                    <li id="menu-item-1315" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1315"><a href="https://harecrypta.com/" aria-current="page">Инструменты (coming soon)</a></li>
-                  </ul>
+                  <Nav id="menu-informacziya" className="menu">
+                    <Nav.Link id="menu-item-1170" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1170"><a href="https://harecrypta.com/category/statya/">Статьи HareCrypta</a></Nav.Link>
+                    <Nav.Link id="menu-item-1168" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1168"><a href="https://harecrypta.com" aria-current="page">GitBook про NFT (coming soon)</a></Nav.Link>
+                    <Nav.Link id="menu-item-1315" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1315"><a href="https://harecrypta.com/" aria-current="page">Инструменты (coming soon)</a></Nav.Link>
+                  </Nav>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
-      <footer class="section footer-section section-pad-sm section-bg ">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-12">
+      <footer className="section footer-section section-pad-nopd section-bg ">
+             <Container>
+                <Row className="text-center">
+                      <Col md={12}>
                         <span class="copyright-text"> Copyright © 2022 by <a href="/">HareCrypta</a></span>
-                    </div>
-                </div>
-            </div>
+                      </Col>
+                </Row>
+              </Container>
         </footer>
     </div>
   )

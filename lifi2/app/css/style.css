@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Play:wght@700&display=swap');
 .bypostauthor,
 .gallery-caption,
 .wp-caption,
@@ -6972,7 +6972,7 @@ select:focus {
 .copyright-text {
     font-size: 13px;
     display: block;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .section-bg-dark .copyright-text,
