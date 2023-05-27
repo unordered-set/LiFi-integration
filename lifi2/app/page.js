@@ -91,6 +91,7 @@ export default function Home() {
                 </div>
               </div>
             </Col>
+            
             <Col lg={3} className="res-m-bttm">
               <div id="nav_menu-4" className="widget footer-widget widget_nav_menu">
                 <h6 className="widget-title">Информация</h6>
