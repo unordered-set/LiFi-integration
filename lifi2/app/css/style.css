@@ -4230,18 +4230,18 @@ select:focus {
     z-index: -2;
     opacity: 0;
     transition: all 0.5s ease;
-    background-image: -webkit-linear-gradient(left, #41faa4 0%, #16a3fe 100%);
-    background-image: linear-gradient(to right, #41faa4 0%, #16a3fe 100%);
+    background-image: -webkit-linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
 }
 
 .btn.btn-alt {
-    background-image: -webkit-linear-gradient(left, #16a3fe 0%, #41faa4 100%);
+    background-image: -webkit-linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
     background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
 }
 
 .btn.btn-alt:before {
-    background-image: -webkit-linear-gradient(left, #41faa4 0%, #16a3fe 100%);
-    background-image: linear-gradient(to right, #41faa4 0%, #16a3fe 100%);
+    background-image: -webkit-linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
 }
 
 .btn:hover:before {
