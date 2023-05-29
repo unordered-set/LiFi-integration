@@ -1,4 +1,7 @@
-import './css/rootstyle.css'
+import './css/bootstrap-min.css'
+import './css/globals.css'
+import './css/vendor.css'
+import './css/style.css'
 
 
 export const metadata = {
