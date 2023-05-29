@@ -33,7 +33,7 @@ export default function Home() {
                 </NavDropdown>
               </Nav>
               <Nav className="navbar-nav navbar-btns">
-                <Nav.Link class="nav-link btn btn-sm btn-outline menu-link" href="https://harecrypta.com/harma/">NFT Harma</Nav.Link>
+                <Nav.Link class="nav-link btn btn-sm btn-outline menu-link" href="https://harecrypta.com/harma/" style={{color: '#fff'}}>NFT Harma</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
@@ -81,7 +81,7 @@ export default function Home() {
             <div id="nav_menu-3" className="widget footer-widget widget_nav_menu">
               <h6 className="widget-title">Важное HareCrypta</h6>
               <div className="menu-futer-menyu-container">
-                <Nav id="menu-futer-menyu" className="menu">
+                <Nav id="menu-futer-menyu" className="menu" style={{display: 'block'}}>
                   <Nav.Link id="menu-item-2798" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2798" href="https://harecrypta.com/category/statya/">Статья HareCrypta</Nav.Link>
                   <Nav.Link id="menu-item-2795" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2795" href="https://harecrypta.com/category/vyzhimki/">Выжимки HareCrypta</Nav.Link>
                   <Nav.Link id="menu-item-2796" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2796" href="https://harecrypta.com/category/makroekonomika/">Макроэкономика</Nav.Link>
@@ -94,7 +94,7 @@ export default function Home() {
             <div id="nav_menu-4" className="widget footer-widget widget_nav_menu">
               <h6 className="widget-title">Информация</h6>
               <div className="menu-informacziya-container">
-                <Nav id="menu-informacziya" className="menu">
+                <Nav id="menu-informacziya" className="menu" style={{display: 'block'}}>
                   <Nav.Link id="menu-item-1170" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1170" href="https://harecrypta.com/category/statya/">Статьи HareCrypta</Nav.Link>
                   <Nav.Link id="menu-item-1168" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1168" href="https://harecrypta.com" >GitBook про NFT (coming soon)</Nav.Link>
                   <Nav.Link id="menu-item-1315" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1315" href="https://harecrypta.com/">Инструменты (coming soon)</Nav.Link>
