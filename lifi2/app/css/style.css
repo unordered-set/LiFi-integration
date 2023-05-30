@@ -232,6 +232,7 @@ ol:last-child,
 p:last-child,
 table:last-child,
 ul:last-child {
+    color: #fff;
     margin-bottom: 0;
 }
 
@@ -6970,6 +6971,7 @@ select:focus {
 }
 
 .copyright-text {
+    color: #fff;
     font-size: 13px;
     display: block;
     margin: 20px 0;
@@ -7025,6 +7027,7 @@ footer-section .wp-block-social-links .wp-block-social-link:hover {
     color: #fff;
 }
 .footer-section .widget-title {
+    color: #fff;
     margin-bottom: 15px;
     margin-top: 20px;
     position: relative;
