@@ -10576,6 +10576,14 @@ a.back-to {
         padding: 10px;
         margin-top: 120px;
     }
+    .loading-hc {
+        padding: 250px;
+    }
+    @media only screen and (max-width: 480px) {
+        .loading-hc {
+            padding: 50px;
+        } 
+    }
     footer-section .wp-block-social-links .wp-block-social-link {
         background-color: #fff;
         color: #444;
