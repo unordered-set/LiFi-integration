@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   :root {
       --blue: #007bff;
       --indigo: #6610f2;
@@ -15628,7 +15628,7 @@
   /*!*************************************************************************************************************************************************************************************************************************************************************!*\
     !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./app/css/style.css ***!
     \*************************************************************************************************************************************************************************************************************************************************************/
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Play:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   .bypostauthor,
   .gallery-caption,
   .wp-caption,
@@ -22611,7 +22611,6 @@
       margin-top: 20px;
       position: relative;
       display: inline-block;
-      font-family: 'Play';
   }
   .footer-section .widget-title::before {
       content: '';
@@ -25889,7 +25888,7 @@
     !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./app/css/bootstrap-min.css ***!
     \*********************************************************************************************************************************************************************************************************************************************************************/
   @charset "UTF-8";
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Play:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   /*!
    * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
@@ -26396,7 +26395,7 @@
   .text-center {
     text-align: center;
   }
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Play:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 13, 17, 46;

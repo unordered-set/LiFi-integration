@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .bypostauthor,
 .gallery-caption,
 .wp-caption,
@@ -7032,7 +7032,6 @@ footer-section .wp-block-social-links .wp-block-social-link:hover {
     margin-top: 20px;
     position: relative;
     display: inline-block;
-    font-family: 'Play';
 }
 .footer-section .widget-title::before {
     content: '';
