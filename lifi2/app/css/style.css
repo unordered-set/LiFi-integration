@@ -10584,6 +10584,33 @@ a.back-to {
             padding: 50px;
         } 
     }
+
+    .social {display: inline-block;}
+    .social a {
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin: 30px 10px 10px 0;
+        text-align: center;
+        color: #000;
+        background: #fff;
+        border: 1px solid rgba(0,0,0,0.1);
+        border-radius: 24px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    }
+    .social a:hover {color: #fff;}
+    .social svg {
+        margin-left: 6px;
+        margin-top: 4px;
+        width: 15px;
+        height: 20px;
+    }
+    .discord a:hover {background: #7a0fff;}
+    .instagram a:hover {background: #7a0fff;}
+    .telegram a:hover {background: #7a0fff;}
+    .twitter a:hover {background: #7a0fff;}
+    .youtube a:hover {background: #7a0fff;}
+
     footer-section .wp-block-social-links .wp-block-social-link {
         background-color: #fff;
         color: #444;
