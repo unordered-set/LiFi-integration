@@ -45,8 +45,8 @@ export default function Home() {
                   <NavDropdown.Item className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1503" href="https://harecrypta.com/haremerch/">Merch</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
-              <Nav className={`navbar-nav navbar-btns ${montserrat.className}`}>
-                <Nav.Link className="nav-link btn btn-sm btn-outline menu-link" href="https://harecrypta.com/harma/" style={{color: '#fff'}}>NFT Harma</Nav.Link>
+              <Nav className="navbar-nav navbar-btns">
+                <Nav.Link className={`nav-link btn btn-sm btn-outline menu-link ${montserrat.className}`} href="https://harecrypta.com/harma/" style={{color: '#fff'}}>NFT Harma</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
