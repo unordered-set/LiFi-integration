@@ -13,7 +13,7 @@ export const Widget = () => {
           appearance: 'dark',
           disableAppearance: true,
         }}
-        integrator="nextjs-example"
+        integrator="harecrypta"
       />
     );
   };
