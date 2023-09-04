@@ -12,6 +12,7 @@ export const Widget = () => {
           },
           appearance: 'dark',
           disableAppearance: true,
+          fee: 0.005,
         }}
         integrator="harecrypta"
       />
